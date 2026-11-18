@@ -1,0 +1,135 @@
+body {
+background-color: white;
+color: black;
+font-family: Arial, sans-serif;
+}
+ 
+header{
+ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 3px solid #F7941D;
+    padding-bottom: 20px;
+    padding: 20px 40px;
+    
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+#Apresentacao{
+      text-align: center;
+      width: 75%;
+      margin: auto;
+      margin-top: 40px;
+}
+
+.logo{
+
+    width: 120px;
+}
+
+.botao{
+
+    background-color: #004A8D;
+    color: white;
+    padding: 12px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 15px;
+    text-decoration: none;
+}
+
+#cursos{
+    margin-top: 60px;
+}
+
+#cursos h2 {
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+    width: 75%;
+    margin: auto;
+    justify-content: center;
+    padding: 20px;
+    flex-wrap: wrap;
+   
+}
+
+.card{
+    background-color: #EAF3FA;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #B5D0E5;
+    transition: transform 0.3s ease;
+    flex: 1 1 250px;
+}
+
+.link-curso{
+    color: #004A8D;
+    text-decoration: none;
+    background-color: #B5D0E5;
+    border-radius: 10px;
+    padding: 10px 20px;
+   display: inline-block;
+    margin-top: 10px;
+}
+
+.link-curso:hover{
+    background-color: #7FAFD3;
+}
+
+.botao:hover{
+    background-color: #2673AD;
+}
+
+.botao:focus {
+    outline: 2px solid #F7941D;
+
+}
+
+.link-curso:focus{
+    outline: 2px solid #F7941D;
+}
+
+.imagem-curso{
+     width: 100%;
+    height: 230px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.card:hover{
+    transform: scale(1.03);
+}
+
+.card:first-child:hover h3 {
+    color: #2673AD;
+}
+
+nav a {
+    color: #004A8D;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #2673AD;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 40px;
+    background-color: #004A8D;
+    color: white;
+    border-radius: 10px;
+    margin-top: 50px;
+}
